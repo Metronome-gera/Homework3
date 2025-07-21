@@ -34,7 +34,22 @@ public class Main {
         long paperStudent = paper / (ludPavlova + annaSergeevna + katerinaAndreevna);
         System.out.println("На каждого ученика расчитано "+paperStudent+" листков бумаги");
 // Задача №4
-
+        byte botleMin ;
+        botleMin= 16/2;
+        System.out.println("За минутe машина производит "+botleMin+" бутылок");
+        byte time = 20;
+        short botle = (short) (botleMin*time);
+        System.out.println("За 20 минут машина производит "+botle+" бутылок");
+        short minuteADay = (short) (24*60);
+        botle = (short) (minuteADay*botleMin);
+        System.out.println("За сутки машина производит "+botle+" бутылок");
+        int botle3 = (int) (botle*3);
+        System.out.println("За 3 cуток машина производит "+botle3+" бутылок");
+        int month30 = (int) (botle3*10);
+        int month31 = (int) (botle*31);
+        int monthFebruary = (int) (botle*28);
+        int monthFebruaryLeepYear = (int) (botle*29);
+        System.out.println("За месяц длинной в 30 дней машина производит "+month30+" за месяц длинной 31 день "+month31+" в феврале "+monthFebruary+" в феврале во время високосного года "+monthFebruaryLeepYear);
 // Задача №5
         byte krask = 120;
         byte kraskBelKab = 2;
@@ -63,7 +78,7 @@ public class Main {
 
          float massKg = (float) (mass / 1000F) ;
          System.out.println(massKg);
-
+// Задача №7
          byte overweight = 7;
          short min = 250;
          short max = 500;
@@ -76,7 +91,7 @@ public class Main {
 
          byte averageDay = (byte) ((minDay+maxDay)/2);
          System.out.println("Среднее время похудения спортсмена "+averageDay+" день");
-
+// Задача №8
          int zpMasha = 67760;
          int zpDenis = 83690;
          int zpKris = 76230;
