@@ -107,7 +107,7 @@ public class Main {
          System.out.println("После повышения Маша станет получать "+zpMashaIncrease+" рублей. Этона на "+mashaDifference+" рублей больше чем до этого");
         System.out.println("После повышения Денис станет получать "+zpDenisIncrease+" рублей. Этона на "+denisDifference+" рублей больше чем до этого");
         System.out.println("После повышения Кристина станет получать "+zpKrisIncrease+" рублей. Этона на "+krisDifference+" рублей больше чем до этого");
-
+// Пакость какая, не берет ссылку
 
     }
 }
